@@ -1,5 +1,4 @@
 # pip install countryinfo
-#ye poora information api mein haiso countryinfo aako usse use karko implement hotaso
 from countryinfo import CountryInfo
 
 #step 1:creating an object
