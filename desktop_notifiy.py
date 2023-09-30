@@ -10,8 +10,4 @@ while True:
     
     time.sleep(5)
 
-    '''
-    ye program terminal mein run holakoch ranga, uska vaste pythonw ./desktop_notify karko run
-    karre katho terminal time ka hisaab se run holakoch ranga, isse stop karna katho taskbar mein 
-    jako end task dedalnaso
-    '''
+   
