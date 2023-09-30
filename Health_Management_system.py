@@ -5,52 +5,52 @@ def date():
 print("*******welcome to Health Management System*******")
 
 while(True):
-    print("press\n\t1.Harry for diet and exercise\n\t2.Rohan for diet and exercise\n\t3.Hammad for diet and exercise\n\t4.retrive the client detail\n\t5.New Client to register\n\t")
+    print("press\n\t1.name for diet and exercise\n\t2.name for diet and exercise\n\t3.name for diet and exercise\n\t4.retrive the client detail\n\t5.New Client to register\n\t")
     a = int(input())
 
     if a ==1:
-        print("welcome harry")
+        print("welcome name")
         x = int(input("1.diet log\n2.exercise\n"))
         if x==1:
-            f = open("harry_diet.txt","w")
+            f = open("name_diet.txt","w")
             a =[date()]
             b = input("what diet food to log: ")
             f.write(str(a))
             f.write(b)
         else:
-            f = open("harry_exercise.txt", "w")
+            f = open("name_exercise.txt", "w")
             a = [date()]
             b = input("enter exercise to log: ")
             f.write(str(a))
             f.write(b)
 
     if a ==2:
-        print("welcome Rohan")
+        print("welcome name")
         x = int(input("1.diet log\n2.exercise\n"))
         if x==1:
-            f = open("Rohan_diet.txt","w")
+            f = open("name_diet.txt","w")
             a =[date()]
             b = input("what diet food to log: ")
             f.write(str(a))
             f.write(b)
         else:
-            f = open("Rohan_exercise.txt", "w")
+            f = open("name_exercise.txt", "w")
             a = [date()]
             b = input("enter exercise to log: ")
             f.write(str(a))
             f.write(b)
 
     if a ==3:
-        print("welcome Hammad")
+        print("welcome name")
         x = int(input("1.diet log\n2.exercise\n"))
         if x==1:
-            f = open("Hammad_diet.txt","w")
+            f = open("name_diet.txt","w")
             a =[date()]
             b = input("what diet food to log: ")
             f.write(str(a))
             f.write(b)
         else:
-            f = open("harry_exercise.txt", "w")
+            f = open("name_exercise.txt", "w")
             a = [date()]
             b = input("enter exercise to log: ")
             f.write(str(a))
